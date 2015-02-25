@@ -1,0 +1,317 @@
+body {
+	font-family: 'Inder', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0 0 24px;
+}
+
+h2 {
+	margin: 0 0 18px;
+}
+
+h3 {
+	margin: 0 0 12px;
+}
+
+p {
+	margin: 4px 0 8px;
+}
+
+a {
+	color: #FF3014;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3c3c3c;
+}
+
+/* includes */
+
+#header {
+	background-color: #fff;
+	margin: 0 0 10px;
+	width: 100%;
+	-webkit-box-shadow: 0 0 7px 0 #999;
+	-moz-box-shadow: 0 0 7px 0 #999;
+	box-shadow:0 0 7px 0 #999;
+}
+
+#nav-holder {
+	margin: 0 auto;
+	padding: 10px;
+/* 	text-align: right; */
+	width: 750px;
+}
+
+#logo {
+	display: inline-block;
+}
+
+.main-nav {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.main-nav li a {
+	color: #3c3c3c;
+	padding: 6px 10px;
+	text-decoration: none;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.main-nav li a:hover {
+	background-color: #FFEB11;
+	color: #fff;
+}
+
+/* Main Index page */
+
+.home-page {
+	background-color: #a5c6f8;	
+}
+
+.home-page .ui-wrapper {
+	background-color: #fff;
+	padding: 30px;
+}
+
+.home-page .button-list {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+
+.home-page .button-list li {
+	border: 1px solid #2a2a2a;
+	border-radius: 6px;
+	display: inline-block;
+	margin: 8px 22px;
+	padding: 20px;
+	-webkit-box-shadow: 0 0 7px 0 #999;
+	-moz-box-shadow: 0 0 7px 0 #999;
+	box-shadow:0 0 7px 0 #999;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.home-page .button-list li:hover {
+	background-color: #FFEB11;
+}
+
+.home-page .button-list li a {
+	color: #2a2a2a;
+	font-size: 28px;
+	text-decoration: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.home-page .button-list li a:hover {	
+}
+
+/* form CSS */
+
+.form-block {
+	display: inline-block;
+	margin: 0 auto;
+	vertical-align: top;
+	width: auto;
+}
+
+.form-block h2 {
+	margin: 0;
+}
+
+/* checkin form styles */
+
+.checkin-page {
+	background-color: #a5c6f8;
+}
+
+.ui-wrapper {
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 60px auto 30px;
+	padding: 20px;
+	width: 750px;
+}
+
+#form-top {
+	margin: 0 0 18px;
+}
+
+#checkin-list {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	vertical-align: top;
+}
+
+#checkin-list h3 {
+	margin: 0 0 4px;
+}
+
+#checkin-list ul {
+	list-style: none;
+	padding: 0;
+}
+
+.checkin-form {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.checkin-form #responsible {
+	display: block;
+	margin: 8px 0;
+	width: 100%;
+}
+
+fieldset label {
+	/*vertical-align: top;*/
+}
+
+fieldset textarea, fieldset input {
+	display: block;
+}
+
+fieldset textarea {
+	width: 100%
+}
+
+/* Pre-print styles */
+
+#checkall-holder {
+	margin: 4px 0 20px 2px;
+}
+
+.checklist-item {
+	display: inline-block;
+	padding: 4px;
+	width: 31%;
+}
+
+/* Label Print Styles */
+
+.label-page h3 {
+	border-bottom: 3px solid black;
+	margin: 0;
+}
+
+.label-page h4 {
+	border-bottom: 2px solid black;
+	margin: 0;
+}
+
+.label-page .wrapper {
+	/*background: url(../images/Troy-Kids-logo.jpg) center 100% no-repeat;
+	background-size: 100%;*/
+	margin: 0 auto;
+	position: relative;
+	width: 500px;
+}
+
+.label-name {
+	font-size: 64px;
+}
+
+.label-alergies {
+	font-size: 42px;
+}
+
+.label-id {
+	font-size: 56px;
+}
+
+.for-infants > div {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+#logo-img {
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 90%;
+	z-index: -1;
+}
+
+#logo-img img {
+	width: 100%;
+}
+
+/* register pages */
+
+.register-page {
+	background-color: #a5c6f8;
+}
+
+.add-edit-form input, .add-edit-form textarea {
+	display: block;
+}
+
+.add-edit-form .form-block {
+	width: 32%;
+}
+
+@media print {
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	h1, .no-print {
+		display: none;
+	}
+	
+	.label-page .wrapper {
+		/*background: url(../images/Troy-Kids-logo.jpg) center 100% no-repeat;
+		background-size: 100%;*/
+		border: 1px dashed #000;		
+		height: 4in;
+		margin: 0 auto;
+		overflow: hidden;
+		width: 2.25in;
+	}
+	
+	.label-name {
+		font-size: 24px;
+		margin-bottom: 12px;
+	}
+	
+	.label-alergies {
+		font-size: 20px;
+		margin-bottom:12px;
+	}
+	
+	.label-id {
+		font-size: 24px;
+		margin-bottom: 12px;
+	}
+	
+	.for-infants > div {
+		font-size:11px;
+	}
+	
+	
+}
